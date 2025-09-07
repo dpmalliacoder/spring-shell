@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-shell
+  shell:
+    interactive:
+      enabled: true
+  main:
+    banner-mode: off
+---
+review:
+  service:
+    url: http://localhost:8082/api/v1/reviews/products
+command:
+  available: true
+logging:
+  level:
+    root: off
